@@ -10,7 +10,7 @@ mkdir -p ~/.osa_tool
 
 # 3. تنزيل ملف الأداة المضغوط من حسابك في GitHub
 echo "[+] جاري تنزيل الملفات..."
-curl -sL "https://github.com/username/repository/raw/main/OSA_APKScanner.zip" -o ~/.osa_tool/tool.zip
+curl -sL "https://github.com/bouguettaoussama-creator/OSA_APKScanner/raw/main/OSA_APKScanner.zip" -o ~/.osa_tool/tool.zip
 
 # 4. فك الضغط تلقائياً وتنظيف الملفات الزائدة
 unzip -o ~/.osa_tool/tool.zip -d ~/.osa_tool/ > /dev/null 2>&1
